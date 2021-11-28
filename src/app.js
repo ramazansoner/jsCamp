@@ -12,3 +12,4 @@ console.log(dolarDun)
 let konutKredileri =["Konut Kredisi", "Emlak Kredisi","Kamu Konut Kredisi"]
 
 console.log(konutKredileri)
+console.log("Merhaba")
