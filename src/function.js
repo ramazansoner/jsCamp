@@ -47,4 +47,31 @@ productName:"Elma",
 unitPrice:10,
 quantity:5
 }
+let product2 = {
+    productName:"Armut",
+    unitPrice:4,
+    quantity:7
+    }
+product1 =product2
+product1.productName="Karpuz"
+console.log(product2.productName)    
 addToCart3(product1)
+//Objeler referans tiplidir.
+
+function addToCart4(x) { 
+console.log(products)
+}
+
+let products=[ //
+{productName:"Elma",
+unitPrice:10,
+quantity:5},
+{productName:"Karpuz",
+unitPrice:10,
+quantity:5},
+{}
+
+]
+addToCart4(products)
+
+
